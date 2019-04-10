@@ -47,7 +47,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Price"
+        android:text="Price(£)"
         android:id="@+id/lbl_price"
         android:layout_below="@id/txt_color"/>
 
@@ -75,55 +75,22 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_engine_size"
         android:text="add car"
-        android:id="@+id/btn_add_car"/>
+        android:id="@+id/btn_add_car"
+        style="@style/btn_car"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_add_car"
-        android:background="#B1B1B1">
+        style="@style/scrollable_view">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Car name :"
-                android:id="@+id/res_car_name"/>
+                android:id="@+id/result"
+                style="@style/result"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Production year :"
-                android:id="@+id/res_year"
-                android:layout_below="@id/res_car_name"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Color :"
-                android:id="@+id/res_color"
-                android:layout_below="@id/res_year"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Price :"
-                android:id="@+id/res_price"
-                android:layout_below="@id/res_color" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/res_enginer_size"
-                android:text="Engine Size :"
-                android:layout_below="@+id/res_price"/>
-
-
-        </RelativeLayout>
 
     </ScrollView>
 

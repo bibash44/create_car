@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="scrollable_view">
+        <item name="android:background">#F0F0F0</item>
+    </style>
+
+    <style name="btn_car">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#EB8203</item>
+    </style>
+
+    <style name="result">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
 </resources>
